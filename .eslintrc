@@ -1,14 +1,24 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
-    "standard-react"
+    "airbnb",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
   ],
   "env": {
-    "es6": true
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest": true
   },
   "plugins": [
-    "react"
+    "react",
+    "immutable",
+    "import",
+    "flowtype",
+    "prettier"
   ],
   "parserOptions": {
     "sourceType": "module",
