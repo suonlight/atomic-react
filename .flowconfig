@@ -1,0 +1,15 @@
+[ignore]
+./dist/*
+**/node_modules/*
+./example/*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.system.node.resolve_dirname=node_modules
+
+[strict]
